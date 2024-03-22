@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./spotify.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+
+    <link
+      rel="shortcut icon"
+      href="./images/Spotify_icon-icons.com_66783.ico"
+      type="image/x-icon"/>
+    <title>My Spotify Clone</title>
+    
+  </head>
+  <body>
+    <main>
+      <section class="top-side">
+
+        <section class="left-side">
+
+          <section class="main-col-left-nav">
+            <div class="d-flex mb-2">
+              <div class="spotify-logo d-flex align-items-center justify-content-center">
+                <img src="./images/Spotify-White-Logo.wine.svg" alt="Spotify_Logo">
+              </div>
+            </div>
+            <div class="pill-list p-1 d-flex flex-column">
+              <div class="left-nav-pill d-flex my-1">
+                <div class="col-2 align-items-center"><i class="fa-solid fa-house"></i></div>
+                <div class="col-10"><a href="./spotify.html">Home</a></div>
+              </div>
+              <div class="left-nav-pill d-flex my-1">
+                <div class="col-2 align-items-center"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="col-10">Search</div>
+              </div>
+            </div>
+    
+          </section>
+          
+          <section class="main-col-left-library">
+            <div class="pill-list p-1 d-flex flex-column">
+              <div class="left-nav-pill d-flex my-1">
+                <div class="col-2 align-items-center"><i class="fa-solid fa-book"></i></div>
+                <div class="col-10">Your Library</div>
+              </div>
+            </div>
+    
+            <div class="Library-content-container pt-2">
+    
+              <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+                <div class="col-2 entry-image-container bg-light">
+                  <img src="./images/plus-small.svg" alt="Liked-Songs">
+                </div>
+                <div class="col-10 px-3">Create PlayLists</div>
+              </div>
+    
+             
+              <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+                <div class="col-2 entry-image-container ">
+                  <img src="./images/Liked_songs_logo.svg" alt="Liked-Songs">
+                </div>
+                <div class="col-10 px-3">Liked Songs</div>
+              </div></a>
+
+              <div class="d-flex align-items-center p-2">
+                <div class="d-flex align-items-center right-nav-pill bg-transparent p-1">
+                  <img src="./images/install-option.svg" alt="instal icon" class="bg-transparent user-image">
+                  <p class="px-4 bg-transparent ">Install App</p>
+                  
+              </div>
+    
+              <br><br><br><br><br>
+            </div>
+            
+          </section>
+    
+        </section>
+        
+      
+        <section class="main-col-right">
+          <nav
+            class="my-nav-right d-flex align-items-center justify-content-between"
+          >
+            <div class="d-flex bg-transparent p-2">
+              <div class="nav-arrows rounded-circle">
+                <i
+                  class="fa-solid fa-angle-left fa-lg"
+                  style="color: #7b7b7b"
+                ></i>
+              </div>
+              <div class="nav-arrows rounded-circle">
+                <i
+                  class="fa-solid fa-angle-right fa-lg"
+                  style="color: #7b7b7b"
+                ></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-logo-hidden">
+                <i class="fa-brands fa-spotify" style="color: #1fdf64;"></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-option-hidden mx-2">
+                <i class="fa-solid fa-magnifying-glass" style="color: #7b7b7b;"></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-option-hidden me-2">
+                <a href="./spotify.html"><i class="fa-solid fa-house" style="color: #7b7b7b;"></i></a>
+              </div>
+             
+            </div>
+            <div class="main-container">
+              <div class="topbar">
+                  <div class="navbar">
+                      <ul>
+                          <li>
+                              <a href="">Sign Up</a>
+                          </li>
+                      </ul>
+                      <button type="button">Login</button>
+                  </div>
+              </div>
+  </div>
+          </nav>
+          <section class="main-window">
+            <h3 class="px-2 py-2 ">Spotify Playlists!</h3>
+            <div class="artists-container d-flex flex-wrap align-items-center justify-content-center">
+              <div class="artists d-flex align-items-center flex-column justify-content-around p-1">
+                <img src="./images/poprightnow.png" alt="profile_pic">
+                <div class="podcast-play-button"><i class="fa-solid fa-play"></i></div>
+                <h3>continue with this song theme!</h3>
+              </div>
+  
+              <div class="artists d-flex align-items-center flex-column justify-content-around p-1">
+                <img src="./images/Peaceful Piano.jpg" alt="profile_pic">
+                <div class="podcast-play-button"><i class="fa-solid fa-play"></i></div>
+                <h3>Stay Peaceful...</h3>
+              </div>
+  
+              <div class="artists d-flex align-items-center flex-column justify-content-around p-1">
+                <img src="./images/Deep Focus.jpg" alt="profile_pic">
+                <div class="podcast-play-button"><i class="fa-solid fa-play"></i></div>
+                <h3>Deeply Focus on!</h3>
+              </div>
+              </div>
+            </div>
+            
+          </section>
+        </section>
+
+      </section>
+    </main>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="preview">
+      <div class="text">
+          <h6>Preview of Spotify</h6>
+          <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+      </div>
+      <div class="button">
+          <button type="button">Sign up free</button>
+      </div>
+  </div>
+  <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
+  </body>
+</html>
