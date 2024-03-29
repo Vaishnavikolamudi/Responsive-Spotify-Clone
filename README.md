@@ -16,8 +16,6 @@ This project is a homage to the popular music streaming platform, Spotify. Using
 - Search Functionality: Find your favorite tracks, albums, and artists with ease.
 - Dynamic Content: Explore a vast library of music content just like on the real Spotify.
 
- Demo:
-Check out the live demo here! http://127.0.0.1:5500/spotify.html to experience the responsive Spotify clone in action!
 
 ![image](https://github.com/Vaishnavikolamudi/Responsive-Spotify-Clone/assets/162945234/a51519b3-040a-4fcd-bb77-36a3593da052)
 
